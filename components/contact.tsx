@@ -43,7 +43,7 @@ export function Contact() {
               </div>
             </div>
 
-            <div className="grid gap-6 border-t border-border-subtle pt-6 sm:grid-cols-2">
+            <div className="grid gap-6 border-t border-border-subtle pt-6 sm:grid-cols-3">
               <ContactRow
                 icon={<FileText size={14} />}
                 label="Résumé"
