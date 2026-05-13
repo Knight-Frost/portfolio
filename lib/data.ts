@@ -10,7 +10,6 @@ export const profile = {
   intro:
     "Computer Science graduate from Winthrop University. I design and ship production-grade backends and full-stack platforms: multi-role systems with RBAC, audit logging, financial-integrity guarantees, and hardened deployment pipelines.",
   email: "eltonpaasakyi@gmail.com",
-  phone: "(980) 229-3610",
   github: "https://github.com/", // TODO: replace with your real GitHub URL
   linkedin: "https://www.linkedin.com/", // TODO: replace with your real LinkedIn URL
   resumePath: "/Elton_Sakyi_Resume.pdf",

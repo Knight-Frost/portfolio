@@ -1,5 +1,5 @@
 import { profile } from "@/lib/data";
-import { ArrowUpRight, Mail, Phone, Github, Linkedin, FileText } from "lucide-react";
+import { ArrowUpRight, Mail, Github, Linkedin, FileText } from "lucide-react";
 import { SectionHeading } from "./section-heading";
 import { Reveal } from "./reveal";
 import { CopyEmail } from "./copy-email";
@@ -44,12 +44,6 @@ export function Contact() {
             </div>
 
             <div className="grid gap-6 border-t border-border-subtle pt-6 sm:grid-cols-2">
-              <ContactRow
-                icon={<Phone size={14} />}
-                label="Phone"
-                value={profile.phone}
-                href={`tel:${profile.phone.replace(/\D/g, "")}`}
-              />
               <ContactRow
                 icon={<FileText size={14} />}
                 label="Résumé"
